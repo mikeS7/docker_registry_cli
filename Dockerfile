@@ -1,4 +1,5 @@
-FROM resin/raspberry-pi2-python
+FROM arm32v7/python:2.7-slim
+# MAINTAINER vivekjuneja@gmail.com
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
